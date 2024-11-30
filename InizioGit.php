@@ -23,7 +23,7 @@
         <button type="submit">Esercizio 2, questa pagina fa vedere il form </button>
     </form>
 
-    <form action="3sercizio3.php" method="get" >
+     <form action="esercizio3.php" method="get" >
         <input type="hidden" name="lname" value="<?php echo $lname; ?>">
         <button type="submit">Esercizio 3, questa pagina fa vedere tutti i vari codici per intero</button>
     </form>

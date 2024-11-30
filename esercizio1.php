@@ -6,13 +6,15 @@
     <title>Esercizio 1</title>
 </head>
 <body>
+<!-- questo pezzo di codice passa il nome inserito al inizo -->
     <?php
         $lname = ($_GET['lname'] ?? '');
     ?>
 
-    <h1>Benvenuto nell'Esercizio 1, <?php echo $lname; ?>!</h1>
-    <p>Questa è la pagina dell'Esercizio 1.</p>
+<h1>Benvenuto <?php echo $lname; ?> nell'Esercizio 1 !</h1>
+<p>Questa è la pagina dell'Esercizio 1.</p>
 
+    <!--questi pezzi di codice fanno si che sia possibile navigare tra le varie pagine-->
     <form action="esercizio2.php" method="get" style="display:inline;">
         <input type="hidden" name="lname" value="<?php echo $lname; ?>">
         <button type="submit">Vai a Esercizio 2</button>

@@ -6,12 +6,13 @@
     <title>Esercizio 2</title>
 </head>
 <body>
+    <!-- questo pezzo di codice passa il nome inserito al inizo -->
     <?php
         $lname = ($_GET['lname'] ?? '');
     ?>
 
-    <h1>Benvenuto nell'Esercizio 2, <?php echo $lname; ?>!</h1>
-    <p>Questa è la pagina dell'Esercizio 2.</p>
+<h1>Benvenuto <?php echo $lname; ?> nell'Esercizio 2 !</h1>
+<p>Questa è la pagina dell'Esercizio 2.</p>
 	
 	<p>questo è un esempio di codice utilizzato per passare il tuo nome e per muoversi 
 	trale varie pagine </p>
